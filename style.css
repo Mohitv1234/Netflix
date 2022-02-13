@@ -438,7 +438,7 @@ top: 55px;
     left: 22%;
 }
 
-@media (max-width:400px){
+@media (max-width:500px){
 main{
     height: 75vh;
 }
@@ -528,6 +528,7 @@ main{
     position: absolute;
     bottom: -111.3vh;
 }
+<<<<<<< HEAD
 #thirdpage img{
     height: 60%;
 }
@@ -642,3 +643,6 @@ main{
     bottom: -417vh;
 }
 }
+=======
+}
+>>>>>>> 30985d4e0eae9fe59e2340733e9d69ae7970f67f
