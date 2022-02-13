@@ -462,14 +462,21 @@ main{
 #search{
     display: block;
 }
-#search input{
+#searchsixpage{
+    margin-left: -5px;
+    width: 90vw;
+}
+#search input,#searchsixpage input{
     width: 100%;
     height: 20%;
     position: absolute;
     left: 50%;
     transform: translate(-50%,0%);
 }
-#search button{
+#searchsixpage input{
+    height:100% ;
+}
+#search button,#searchsixpage button{
     width: 40vw;
     height: 6.5vh;
     margin-top: 65px;
@@ -520,5 +527,118 @@ main{
     height: 68vh;
     position: absolute;
     bottom: -111.3vh;
+}
+#thirdpage img{
+    height: 60%;
+}
+#mobile{
+    width: 251px;
+    height: 61px;
+    z-index: 70;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+}
+#img3 img{
+    position: absolute;
+    /* z-index: 7; */
+    left: 50vw;
+    bottom:5vh;
+    transform: translate(-50%,0%);
+}
+#gh{
+    text-align: center;
+    position: absolute;
+    width: 90vw;
+    left: 5%;
+    top: 6%;
+}
+#text3 h1{
+    margin: 0;
+    font-size: 26px;
+}
+#forthpage{
+    height: 68.6vh;
+    position: absolute;
+    bottom: -180vh;
+}
+#img4 img{
+    height: 60%;
+    position: absolute;
+    left:8vw;
+    transform: translate(-50vw,0vw);
+    top: 27vh;
+}
+#img4 video{
+    height: 27%;
+    position: absolute;
+    right: 48px;
+    top: 30.8vh;
+}
+#text4 h1, #text3 h1,#text5 h1{
+    font-size: 30px;
+}
+#text4 p,#text3 p,#text5 p{
+    font-size: 17px;
+}
+#fivepage{
+    height: 68vh;
+    position: absolute;
+    bottom: -248vh;
+}
+#img5 img{
+    height: 52%;
+    position: absolute;
+    top: 70%;
+    right: 6%;
+}
+.sixplus{
+    width: 100vw;
+}
+#sixpage h1{
+    margin-left: 28px;
+    width: 80vw;
+    font-size: 25px;
+}
+#sixpera{
+    text-align: center;
+    width: 85vw;
+}
+#sixpage{
+    height: 109vh;
+    position: absolute;
+    bottom: -357vh;
+}
+.sevenpera p{
+    font-size: 13px;
+    margin-bottom: 1.8px;
+}
+#sevepera1{
+    margin-left: -10vw;
+}
+#sevepera3{
+    position: absolute;
+    top: 17vh;
+    margin-left: -10vw;
+}
+#sevepera4{
+    width: 60%;
+    position: absolute;
+    top: 17vh;
+    margin-left: 33vw;
+}
+#sevepera2{
+    width: 60%;
+    position: absolute;
+    margin-left: 33vw;
+}
+#sevenqe{
+    margin-left: -34px;
+}
+#sevenpage{
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    bottom: -417vh;
 }
 }
